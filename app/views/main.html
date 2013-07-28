@@ -1,0 +1,26 @@
+<div class="row-fluid">
+    <div class="span12">
+        <div class="span8">
+            <div class="row-fluid">
+                <div class="span4">
+
+                    <img ng-src="http://www.gravatar.com/avatar/{{profile.gravatar_id}}?s=160" class="img-rounded"/>
+                </div>
+                <div class="span8">
+
+                    <h1>Vibhor Mahajan</h1>
+                    <address>
+                        <strong>Project Leader at Trantor Inc.</strong><br>
+                        Chandigarh, India <br>
+                        <a href="mailto:vibhor.mahajan@gmail.com">vibhor.mahajan@gmail.com</a>
+                    </address>
+                </div>
+            </div>
+
+        </div>
+        <div class="span4">
+            <h3 class="muted">You just saw me use</h3>
+            <span ng-repeat="skill in skills"><span class="label label-success">{{skill}}</span>&nbsp;</span>
+        </div>
+    </div>
+</div>
